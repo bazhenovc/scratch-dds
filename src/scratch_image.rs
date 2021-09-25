@@ -193,6 +193,7 @@ impl ScratchImage {
         if is_cubemap {
             image_data_size *= 6;
         }
+        image_data_size *= array_size;
 
         let mut dds_data = Vec::new();
         dds_data.resize(image_data_size as _, 0u8);
