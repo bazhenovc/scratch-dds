@@ -1,0 +1,8 @@
+[package]
+name = "scratch-dds"
+version = "0.1.0"
+edition = "2018"
+license = "MPL-2.0"
+
+[dependencies]
+bytemuck = "*"
